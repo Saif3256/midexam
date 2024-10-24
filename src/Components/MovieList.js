@@ -4,16 +4,16 @@ import "./MovieList.css";
 function Card({ card }) {
   return (
     <div className="card-info-flex">
-      <h3 className="card-title">{card.title}</h3>
+      <h3 className="card-title">{'Bodyguard'}</h3>
       <div className="card-rating">
         
-          <p>{card.rating}</p>
+          <p>{'3.7'}</p>
       </div>
      
-      <p style={{ margin: 0, color: "var(--font-grey)" }}>{card.desc}</p>
-      <p style={{ margin: 0, color: "var(--font-grey)" }}>{card.date}</p>
+      <p style={{ margin: 0, color: "var(--font-grey)" }}>{'Horror movie'}</p>
+      <p style={{ margin: 0, color: "var(--font-grey)" }}>{'2007'}</p>
       <p style={{ margin: "0.2rem", fontSize: "1rem", color: "var(--black" }}>
-        <span style={{ fontWeight: "600" }}>₹{card.price}</span> night
+        <span style={{ fontWeight: "600" }}>₹{'20'}</span> night
       </p>
    
     </div>

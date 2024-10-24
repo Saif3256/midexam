@@ -13,7 +13,7 @@ const Footer = () => {
             <h4 className="footer-title">About</h4>
             <div className="footer-links">
             
-              <li></li>
+              
               <li>Hindi</li>
               <li>Bollywood</li>
               <li>Hollywood</li>
