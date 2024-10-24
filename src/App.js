@@ -1,7 +1,7 @@
 
 
 
-import Footer from './Components/Footer';
+
 import { Homepage } from './Pages/HomePage';
 
 function App() {
