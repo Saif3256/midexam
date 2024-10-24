@@ -35,6 +35,6 @@
   gap: 0.25rem;
 }
 
-.card-box .swiper-pagination-bullet-active {
+.card-box {
   background-color: var(--white) !important;
 }
